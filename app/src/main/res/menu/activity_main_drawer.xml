@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="Profile" />
+        <item
+            android:id="@+id/nav_ward"
+            android:icon="@drawable/ward"
+            android:title="Ward Details" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_search"
+            android:title="Candidate Details" />
+        <item
+            android:id="@+id/nav_survey"
+            android:icon="@drawable/survey"
+            android:title="Feedback Form" />
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/aboutus"
+            android:title="About Us" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/newspaper"
+            android:title="News" />
+    </group>
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_rate"
+                android:title="Rate This App" />
+
+
+        </menu>
+    </item>
+
+</menu>

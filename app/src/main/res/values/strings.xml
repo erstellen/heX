@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">heX</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="nav_header_title">Erstellen</string>
+    <string name="nav_header_subtitle">erstellen@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="toolbar_title">heXApp</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Profile</string>
+    <string name="menu_slideshow">Candidates Details</string>
+    <string name="menu_ward">Ward</string>
+    <string name="menu_survey">Feedback Form</string>
+    <string name="menu_aboutus">About Us</string>
+    <string name="menu_news">News</string>
+    <string name="home_second">Home Second</string>
+
+
+</resources>
