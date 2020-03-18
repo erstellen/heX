@@ -24,7 +24,7 @@ public class CandidatesFragment extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container,
                              @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.candidates_fragment, container, false);
+        return inflater.inflate(R.layout.candidates_activity, container, false);
     }
 
     @Override
