@@ -23,7 +23,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".news"></activity>
+        <activity android:name=".FirebaseBaseActivity" />
+        <activity android:name=".RoomCreationActivity" />
+        <activity android:name=".UserActivity" />
+        <activity android:name=".MainChat" />
+<!--        <activity android:name=".MainActivity" />-->
+        <activity android:name=".MyListView" />
+        <activity android:name=".ChatRoom" />
+        <activity android:name=".news" />
         <activity android:name=".aboutus" />
         <activity android:name=".surveyForm" />
         <activity android:name=".candidates" />
@@ -31,9 +38,7 @@
         <activity
             android:name=".MainActivity"
             android:label="@string/title_activity_main"
-            android:theme="@style/AppTheme.NoActionBar">
-
-        </activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".DashBoardActivity" />
         <activity android:name=".verificationActivity" />
         <activity android:name=".PhoneLoginActivity" />

@@ -24,5 +24,5 @@
     <color name="colorPrimary1">#6200EE</color>
     <color name="colorPrimaryDark1">#3700B3</color>
     <color name="colorAccent1">#03DAC5</color>
-
+    <color name="colorTitle">#ffffff</color>
 </resources>
