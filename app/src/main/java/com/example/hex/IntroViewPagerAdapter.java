@@ -41,11 +41,6 @@ public class IntroViewPagerAdapter extends PagerAdapter {
         container.addView(layoutScreen);
 
         return layoutScreen;
-
-
-
-
-
     }
 
     @Override

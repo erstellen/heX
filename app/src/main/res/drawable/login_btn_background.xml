@@ -3,6 +3,5 @@
     <gradient
         android:endColor="@color/gradient_end_color"
         android:startColor="#f77062"/>
-    <stroke android:color="#000000" android:width="2dp"/>
     <corners android:radius="20dp"/>
 </shape>
