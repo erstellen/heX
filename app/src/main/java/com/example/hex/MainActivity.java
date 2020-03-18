@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-    Toolbar toolbar = findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow,R.id.nav_ward, R.id.nav_survey,R.id.nav_aboutus, R.id.nav_news)
+                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.nav_ward, R.id.nav_survey, R.id.nav_aboutus, R.id.nav_news)
                 .setDrawerLayout(drawer)
                 .build();
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
@@ -71,13 +71,21 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(Intent.createChooser(sharingIntent, "Shearing Option"));
                 return true;
         }
-        return super.onOptionsItemSelected(item);
+//        switch (item.getItemId()) {
+//            case R.id.nav_slideshow:
+//                Intent intent = new Intent(this,.class);
+//                this.startActivity(intent);
+//
+//                return true;
+//        }
+            return super.onOptionsItemSelected(item);
+        }
+
+        @Override
+        public boolean onSupportNavigateUp () {
+            NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
+            return NavigationUI.navigateUp(navController, mAppBarConfiguration)
+                    || super.onSupportNavigateUp();
+        }
     }
 
-    @Override
-    public boolean onSupportNavigateUp() {
-        NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
-        return NavigationUI.navigateUp(navController, mAppBarConfiguration)
-                || super.onSupportNavigateUp();
-    }
-}
