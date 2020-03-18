@@ -23,8 +23,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Activities.AnimeActivity"></activity>
-        <activity android:name=".news" />
+        <activity android:name=".news"></activity>
         <activity android:name=".aboutus" />
         <activity android:name=".surveyForm" />
         <activity android:name=".candidates" />
