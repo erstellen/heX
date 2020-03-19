@@ -53,8 +53,8 @@ import retrofit2.http.GET;
 
 public class candidates extends AppCompatActivity {
     //private static final String BASE_URL = "http://10.0.2.2";
-    private static final String BASE_URL = "http://192.168.1.203";
-    private static final String FULL_URL = BASE_URL+"/retrieveData/";
+    public static final String BASE_URL = "http://192.168.1.203";
+    public static final String FULL_URL = BASE_URL+"/retrieveData/";
 
     class Spacecraft {
         @SerializedName("id")
